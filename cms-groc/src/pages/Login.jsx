@@ -85,7 +85,7 @@ export default function Login() {
             </button>
             <div className="text-center m-5">
               Don't have an account yet?{"   "}
-              <Link to={"/register"}>Register</Link>
+              <Link to={"/register"} style={{textDecoration: "none"}}>Register</Link>
             </div>
           </form>
         </div>
