@@ -40,7 +40,15 @@ export default function Login() {
           height: "100vh",
         }}
       >
-        <div className="left-side" style={{ flex: 1 }}></div>
+        <div className="left-side" style={{ flex: 1 }}>
+          <img 
+          src="https://img.freepik.com/premium-photo/black-white-image-food-cart-with-sign-that-says-food_783884-52474.jpg" 
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover"
+          }} />
+        </div>
         <div
           className="right-side d-flex justify-content-center align-items-center p-5"
           style={{ flex: 1, backgroundColor: "#FCDCA0", height: "100%" }}
