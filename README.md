@@ -1,4 +1,4 @@
-# SLC02 - Hacktiv Grocery
+# Grocery
 
 ## Ringkasan
 
