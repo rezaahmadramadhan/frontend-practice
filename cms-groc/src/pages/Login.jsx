@@ -40,14 +40,21 @@ export default function Login() {
           height: "100vh",
         }}
       >
-        <div className="left-side" style={{ flex: 1 }}>
-          <img 
-          src="https://img.freepik.com/premium-photo/black-white-image-food-cart-with-sign-that-says-food_783884-52474.jpg" 
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-          }} />
+        <div
+          className="left-side d-flex justify-content-center align-items-center"
+          style={{ flex: 1 }}
+        >
+          <img
+            src="https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABVwXgEvxlE5fKNE0OwlpDh-7Df3kUiRk1e77H48tnT2HpKgxkEm9EX2weZRatVjAm8SV04ve7cyO6dJnBd_c3UOsh4zVnULS09KD.jpg?r=4d8"
+            style={{
+              width: "25%",
+              height: "25%",
+              objectFit: "cover",
+              borderRadius: "50%",
+            }}
+          />
+
+          <button className="btn btn-warning">Join</button>
         </div>
         <div
           className="right-side d-flex justify-content-center align-items-center p-5"
@@ -85,7 +92,9 @@ export default function Login() {
             </button>
             <div className="text-center m-5">
               Don't have an account yet?{"   "}
-              <Link to={"/register"} style={{textDecoration: "none"}}>Register</Link>
+              <Link to={"/register"} style={{ textDecoration: "none" }}>
+                Register
+              </Link>
             </div>
           </form>
         </div>
